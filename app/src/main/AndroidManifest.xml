@@ -13,6 +13,7 @@
         android:theme="@style/Theme.VDeo">
         <activity
             android:name=".Exoplayer"
+            android:parentActivityName=".MainActivity"
             android:configChanges="orientation|screenSize|layoutDirection"></activity>
         <activity
             android:name=".Video"
