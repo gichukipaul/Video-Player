@@ -27,7 +27,6 @@ public class Video extends AppCompatActivity {
             vd.setVideoURI(uri);
             vd.setMediaController(md);
             md.setAnchorView(vd);
-
         }
     }
 
